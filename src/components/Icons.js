@@ -10,8 +10,8 @@ export const DeleteIcon = props => (
     <div className="rmc-remove" />
     <style jsx>{`
       .rmc-icon-container {
-        width: 15px;
-        height: 15px;
+        width: 6px;
+        height: 6px;
         cursor: pointer;
         float: right;
         background:#262626;
@@ -20,7 +20,7 @@ export const DeleteIcon = props => (
       .rmc-remove {
         color: white;
         position: absolute;
-        margin-top: 6px;
+        margin-top: 2px;
       }
 
       .rmc-remove:hover {
@@ -30,7 +30,7 @@ export const DeleteIcon = props => (
       .rmc-remove:before {
         content: '';
         position: absolute;
-        width: 15px;
+        width: 6px;
         height: 1px;
         background-color: currentColor;
         -webkit-transform: rotate(45deg);
@@ -40,7 +40,7 @@ export const DeleteIcon = props => (
       .rmc-remove:after {
         content: '';
         position: absolute;
-        width: 15px;
+        width: 6px;
         height: 1px;
         background-color: currentColor;
         -webkit-transform: rotate(-45deg);
@@ -57,13 +57,13 @@ export const NumberIcon = ({ number }) => (
     { number }
     <style jsx>{`
       .rmc-number {
-        width: 15px;
-        height: 15px;
+        width: 6px;
+        height: 6px;
         float: left;
-        font-size: 12px;
+        font-size: 4px;
         background:#262626;
         text-align: center;
-        line-height: 15px;
+        line-height: 6px;
         color: white;
         opacity: 0.8;
       }
