@@ -80,6 +80,9 @@ class MultiCrops extends Component {
 
   handlMouseUp = () => {
     this.pointA = {}
+    if (this.props.onMouseUp) {
+      this.props.onMouseUp()
+    }
   }
 
   render() {
@@ -126,6 +129,7 @@ MultiCrops.propTypes = {
   onDraw: func, // eslint-disable-line
   onChange: func, // eslint-disable-line
   onLoad: func, // eslint-disable-line
+  onMouseUp: func, // eslint-disable-line
 }
 
 MultiCrops.defaultProps = {
