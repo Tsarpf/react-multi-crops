@@ -34,6 +34,7 @@ class Crop extends Component {
         edges: {
           left: true, right: true, bottom: true, top: true,
         },
+        margin: 4,
       })
       .on('dragmove', this.handleDragMove)
       .on('resizemove', this.handleResizeMove)
